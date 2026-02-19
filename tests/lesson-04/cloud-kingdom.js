@@ -1,0 +1,15 @@
+let powerUp = "n/a";
+let effect = "";
+if (powerUp == "mushroom"){
+    effect = "Mario becomes Suprer!";
+} else if (powerUp == "flower"){
+    effect = "Mario can shoot fireballs!";
+} else if (powerUp == "star"){
+    effect = "Mario is invincible!";
+}else if (powerUp == "none"){
+    effect = "Mario is normal";
+}
+else{
+    effect = "Unknown power-up";
+}
+console.log(effect);
